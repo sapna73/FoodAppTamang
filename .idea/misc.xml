@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/drawable/button_background.xml" value="0.19444444444444445" />
+        <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/drawable/button_bg_blue.xml" value="0.19444444444444445" />
+        <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/drawable/edit_text_background.xml" value="0.19444444444444445" />
+        <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/layout/activity_flash_screen1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/layout/activity_flash_screen2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/layout/activity_flash_screen3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/layout/activity_flash_screen4.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/layout/activity_foodly.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/layout/activity_forget_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/layout/activity_sign_in.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

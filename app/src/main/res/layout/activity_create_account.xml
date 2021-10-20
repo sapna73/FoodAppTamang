@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.CreateAccount">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_create_account"
+        android:layout_marginTop="40dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_create_desp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have account?"
+        android:textSize="14sp"
+        android:textColor="@color/purple_200"
+        android:layout_margin="15dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:hint="Full Name"
+        android:padding="5dp"
+        android:background="@drawable/edit_text_background"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:hint="Email Address"
+        android:padding="5dp"
+        android:background="@drawable/edit_text_background"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:hint="Password"
+        android:padding="5dp"
+        android:background="@drawable/edit_text_background"/>
+
+    <Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Sign up"
+        android:layout_margin="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:backgroundTint="#EEA734"
+        android:background="@drawable/button_background"/>
+</LinearLayout>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,17 +8,22 @@
     android:orientation="vertical"
     tools:context=".ui.SignIn">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/welcome_signin"
-        android:layout_marginTop="60dp"/>
+        android:layout_marginTop="40dp"/>
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/enter_login"
-        android:layout_marginTop="60dp"/>
+        android:layout_marginTop="10dp"/>
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/et_email"
@@ -39,6 +44,7 @@
         android:background="@drawable/edit_text_background"/>
 
     <TextView
+        android:id="@+id/tv_forgot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Forgot Password?"
@@ -48,11 +54,11 @@
     <Button
         android:id="@+id/btn_sign_in"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="40dp"
         android:text="Sign in"
         android:layout_margin="20dp"
         android:textColor="#FFFFFF"
-        android:textSize="20sp"
+        android:textSize="16sp"
         android:backgroundTint="#EEA734"
         android:background="@drawable/button_background"/>
 
@@ -90,9 +96,9 @@
     <Button
         android:id="@+id/btn_sign_fb"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="40dp"
         android:text="Connect with Facebook"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         android:backgroundTint="#EEA734"
@@ -101,14 +107,12 @@
     <Button
         android:id="@+id/btn_sign_google"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="40dp"
         android:text="Connect with Google"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         android:backgroundTint="#EEA734"
         android:background="@drawable/button_background"/>
-
-
-
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>

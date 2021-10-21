@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TamangFoodAppServices">
         <activity
+            android:name=".activities.CardList"
+            android:exported="true" />
+        <activity
+            android:name=".activities.PaymentMethods"
+            android:exported="true" />
+        <activity
+            android:name=".ui.AddToOrder"
+            android:exported="true" />
+        <activity
             android:name=".activities.ResturantViewPager"
             android:exported="true" />
         <activity

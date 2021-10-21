@@ -17,7 +17,7 @@ class FlashScreen1 : AppCompatActivity() {
 
         buttonGetStartedFirst.setOnClickListener(){
 
-            intent = Intent(this, ResturantViewPager::class.java)
+            intent = Intent(this, AddToOrder::class.java)
             startActivity(intent)
         }
     }

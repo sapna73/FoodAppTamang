@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import com.example.tamangfoodappservices.R
+import com.example.tamangfoodappservices.activities.ResturantViewPager
+import com.example.tamangfoodappservices.fragments.RestaurantPlaceHolder
 
 class FlashScreen1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,7 +17,7 @@ class FlashScreen1 : AppCompatActivity() {
 
         buttonGetStartedFirst.setOnClickListener(){
 
-            intent = Intent(this, FlashScreen2::class.java)
+            intent = Intent(this, ResturantViewPager::class.java)
             startActivity(intent)
         }
     }

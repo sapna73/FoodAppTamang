@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TamangFoodAppServices">
         <activity
+            android:name=".activities.ResturantViewPager"
+            android:exported="true" />
+        <activity
             android:name=".ui.FeaturedPartners"
             android:exported="true" />
         <activity

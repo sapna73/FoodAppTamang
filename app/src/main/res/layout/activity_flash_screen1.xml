@@ -9,24 +9,27 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:weightSum="2"
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/logo_foods"
-            android:layout_weight="1"
-            android:layout_marginTop="30dp"/>
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"/>
 
-    <ImageView
-        android:id="@+id/image_tamang"
-        android:layout_width="450dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginRight="40dp"
-        android:src="@drawable/ic_tamang_food_service"
-        android:layout_marginTop="30dp"/>
+        <TextView
+            android:id="@+id/image_tamang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/fa_brands_400"
+            android:text="Tamang FoodServices"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="30dp"/>
 
     </LinearLayout>
 
@@ -37,19 +40,32 @@
         android:src="@drawable/ic_flash1_pic"
         android:layout_marginTop="60dp"/>
 
-    <ImageView
-        android:id="@+id/image_welcome"
+    <TextView
+        android:id="@+id/image_tamang_welcome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/welcome"
-        android:layout_marginTop="10dp"/>
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/yugothib"
+        android:text="Welcome"
+        android:layout_marginTop="30dp"/>
 
-    <ImageView
-        android:id="@+id/image_desp"
+    <TextView
+        android:id="@+id/image_tamang_welcome_desp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/desp_first_screen"
-        android:layout_marginTop="10dp"/>
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/yugothib"
+        android:text="It's a pleasure to meet you. We are exicted that you're here so let's get started!"
+        android:layout_marginTop="30dp"/>
 
     <Button
         android:id="@+id/btn_get1"

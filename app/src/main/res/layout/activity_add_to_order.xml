@@ -446,5 +446,13 @@
                 android:layout_marginTop="10dp"/>
         </LinearLayout>
 
+        <ImageView
+            android:id="@+id/image_add_to_order_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add_to_order_btn"
+            android:layout_margin="20dp"
+            android:layout_marginTop="10dp"/>
+
     </LinearLayout>
 </ScrollView>

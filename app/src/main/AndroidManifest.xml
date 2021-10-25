@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TamangFoodAppServices">
         <activity
+            android:name=".activities.ConfirmOrder"
+            android:exported="true" />
+        <activity
+            android:name=".activities.SocialAccounts"
+            android:exported="true" />
+        <activity
+            android:name=".activities.SearchFoods"
+            android:exported="true" />
+        <activity
+            android:name=".activities.SearchResturants"
+            android:exported="true" />
+        <activity
+            android:name=".activities.Filters"
+            android:exported="true" />
+        <activity
+            android:name=".activities.AddPaymentMethods"
+            android:exported="true" />
+        <activity
+            android:name=".activities.YourOrders"
+            android:exported="true" />
+        <activity
             android:name=".activities.CardList"
             android:exported="true" />
         <activity
@@ -20,6 +41,7 @@
             android:exported="true" />
         <activity
             android:name=".activities.ResturantViewPager"
+            android:parentActivityName=".activities.SearchResturants"
             android:exported="true" />
         <activity
             android:name=".ui.FeaturedPartners"
@@ -35,34 +57,47 @@
             android:exported="true" />
         <activity
             android:name=".ui.CreateAccount"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:parentActivityName=".ui.SignIn" />
         <activity
             android:name=".ui.VerifyPhoneNumber"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:parentActivityName=".ui.SignIn" />
         <activity
             android:name=".ui.SignIn"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
             android:name=".ui.ResetEmail"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:parentActivityName=".ui.SignIn" />
         <activity
             android:name=".ui.ForgetPassword"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:parentActivityName=".ui.SignIn" />
         <activity
             android:name=".ui.Foodly"
             android:exported="true" />
         <activity
             android:name=".ui.FlashScreen4"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
             android:name=".ui.FlashScreen3"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
             android:name=".ui.FlashScreen2"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
             android:name=".ui.FlashScreen1"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

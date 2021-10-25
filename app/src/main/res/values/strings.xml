@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">TamangFoodAppServices</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="food_name">Home</string>
+    <string name="search_name">Search</string>
+    <string name="order_name">Orders</string>
+    <string name="profile_name">Profile</string>
 </resources>

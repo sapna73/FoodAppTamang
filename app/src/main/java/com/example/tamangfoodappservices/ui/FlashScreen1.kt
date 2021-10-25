@@ -13,11 +13,11 @@ class FlashScreen1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_flash_screen1)
 
-        var buttonGetStartedFirst = findViewById<Button>(R.id.btn_get1)
+        var imageAdd = findViewById<Button>(R.id.btn_get1)
 
-        buttonGetStartedFirst.setOnClickListener(){
+        imageAdd.setOnClickListener(){
 
-            intent = Intent(this, AddToOrder::class.java)
+            intent = Intent(this, FlashScreen2::class.java)
             startActivity(intent)
         }
     }

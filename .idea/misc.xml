@@ -6,6 +6,8 @@
         <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/drawable/button_background.xml" value="0.19444444444444445" />
         <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/drawable/button_bg_blue.xml" value="0.19444444444444445" />
         <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/drawable/edit_text_background.xml" value="0.19444444444444445" />
+        <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/drawable/indicator1_active.xml" value="0.2203125" />
+        <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/drawable/indicator1_inactive.xml" value="0.2203125" />
         <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/font/poppins.xml" value="0.21666666666666667" />
         <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/font/poppins_bold.xml" value="0.21666666666666667" />
         <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/layout/activity_add_payment_methods.xml" value="0.20416666666666666" />
@@ -29,12 +31,15 @@
         <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/layout/activity_resturant_view_pager.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/layout/activity_search_foods.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/layout/activity_search_resturants.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/layout/activity_sign_in.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/layout/activity_sign_in.xml" value="0.1" />
         <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/layout/activity_social_accounts.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/layout/activity_verify_password.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/layout/activity_your_orders.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/layout/fragment_restaurant_place_holder.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/layout/item_single_tab_fragment.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/Desktop/KotlinGit/TamangFoodAppServices/app/src/main/res/menu/nav_restaurant.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
